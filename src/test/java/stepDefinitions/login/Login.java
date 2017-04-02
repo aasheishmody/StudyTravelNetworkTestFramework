@@ -41,7 +41,7 @@ public class Login extends Page {
         throw new PendingException();
     }
 
-    @And("^I enter the following valid password in the 'Email' textbox$")
+    @And("^I enter the following valid password in the 'Password' textbox$")
     public void iEnterTheFollowingValidPasswordInTheEmailTextbox() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         throw new PendingException();
@@ -71,7 +71,7 @@ public class Login extends Page {
         throw new PendingException();
     }
 
-    @And("^I enter the following invalid password in the 'Email' textbox$")
+    @And("^I enter the following invalid password in the 'Password' textbox$")
     public void iEnterTheFollowingInvalidPasswordInTheEmailTextbox() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         throw new PendingException();

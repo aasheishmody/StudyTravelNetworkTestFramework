@@ -14,7 +14,7 @@ Feature: Login
     And I enter the following registered email in the 'Email' textbox
       |UserName                |
       |registered@studytravel.network|
-    And I enter the following valid password in the 'Email' textbox
+    And I enter the following valid password in the 'Password' textbox
       |Password|
       |Test1234|
     When I click on the 'Sign in' button
@@ -25,7 +25,7 @@ Feature: Login
     And I enter the following unregistered email in the 'Email' textbox
       |UserName                |
       |unregistered@studytravel|
-    And I enter the following valid password in the 'Email' textbox
+    And I enter the following valid password in the 'Password' textbox
       |Password|
       |Valid1234|
     When I click on the 'Sign in' button
@@ -38,7 +38,7 @@ Feature: Login
     And I enter the following registered email in the 'Email' textbox
       |UserName                |
       |registered@studytravel.network|
-    And I enter the following invalid password in the 'Email' textbox
+    And I enter the following invalid password in the 'Password' textbox
       |Password|
       |invalid1234|
     When I click on the 'Sign in' button
@@ -54,7 +54,7 @@ Feature: Login
 
   Scenario: UnSuccessful Login with no email
     And I click on the 'Login' button
-    And I enter the following valid password in the 'Email' textbox
+    And I enter the following valid password in the 'Password' textbox
       |Password|
       |Valid1234|
     When I click on the 'Sign in' button

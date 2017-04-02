@@ -176,12 +176,12 @@ public class WebConnector {
             case "firefox":
                 if (getDriver() == null) {
                     FirefoxDriverManager.getInstance().setup();
-                setDriver(new FirefoxDriver());
+                    setDriver(new FirefoxDriver());
                 }
                 break;
             case "safari":
                 if (driver == null) {
-                setDriver(new SafariDriver());
+                    setDriver(new SafariDriver());
                 }
                 break;
         }
